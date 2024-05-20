@@ -1,0 +1,43 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 20px;
+    color: #ffffff;
+    padding-left: 4vw;
+    height: 90vh;
+}
+
+.h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.p {
+    line-height: 2.5;
+    width: 87vw;
+    background-color: #1f1f28;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #7a59b6;
+    margin: 1em 0;
+    color: #d8d8e2;
+    color: var(--secondaryColor);
+    font-weight: 300;
+    font-size: calc(1rem + .5vw);
+    letter-spacing: .05rem;
+}
+
+.lockIcon {
+    font-size: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.bottomText {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
