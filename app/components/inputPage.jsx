@@ -2,6 +2,8 @@
 // import { useState } from "react";
 import style from "./inputPage.module.css";
 import Button from "./Button";
+// import AudioFile from "./audioFile";
+import AudioCutter from "./audioCutter";
 export default function InputPage() {
   // const [fileSelect, onFileSelect] = useState(null);
   return (
@@ -14,9 +16,9 @@ export default function InputPage() {
       <p className={style.p}>
         Free editor to trim and cut any audio file online
       </p>
-      <Button />
-      {/* <AudioCutter />
-      <AudioFile src={fileSelect} controls></AudioFile> */}
+      {/* <Button /> */}
+      <AudioCutter />
+      {/* <AudioFile src={fileSelect} controls></AudioFile> */}
     </section>
   );
 }
